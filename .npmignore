@@ -1,0 +1,6 @@
+.github/
+test/
+docs/CODEX-FOR-OSS-APPLICATION.md
+docs/ISSUE-SEEDS.md
+coverage/
+*.log

@@ -1,0 +1,26 @@
+{
+  "name": "line-plan-doctor",
+  "version": "0.1.0",
+  "description": "LINE and L Step project plan checker for small business marketing workflows.",
+  "type": "module",
+  "bin": {
+    "line-plan-doctor": "./src/cli.js"
+  },
+  "scripts": {
+    "check": "node --check src/cli.js && node --check src/analyzer.js && node --check src/rules.js",
+    "test": "node --test",
+    "demo": "node src/cli.js examples/restaurant-plan.md"
+  },
+  "keywords": [
+    "line",
+    "lstep",
+    "marketing",
+    "checklist",
+    "cli"
+  ],
+  "author": "Shota Yamaki",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
