@@ -1,5 +1,7 @@
 # LINE Plan Doctor
 
+[![CI](https://github.com/Yamaki-shota/line-plan-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/Yamaki-shota/line-plan-doctor/actions/workflows/ci.yml)
+
 LINE Plan Doctor is a CLI that checks LINE Official Account and L Step project plans for missing operational details.
 
 It is built for small businesses and non-engineer operators who need to review marketing automation plans before launch. The tool reads Markdown project notes and flags missing goals, audiences, tags, custom fields, scenarios, branching logic, rich menus, forms, QA checks, owners, and done conditions.
