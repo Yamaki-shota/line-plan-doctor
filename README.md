@@ -1,8 +1,12 @@
 # LINE Plan Doctor
 
-LINE/Lステップ案件資料の抜け漏れを診断するCLIです。
+LINE Plan Doctor is a CLI that checks LINE Official Account and L Step project plans for missing operational details.
 
-小規模店舗のLINE導線は、文面より先に設計の抜け漏れで崩れます。タグ、友だち情報、フォーム、分岐、QA、完了条件が薄いまま進むと、公開直前にだいたい燃えます。LINE Plan Doctor は、その地味な事故を早めに見つけるための小さいOSSです。
+It is built for small businesses and non-engineer operators who need to review marketing automation plans before launch. The tool reads Markdown project notes and flags missing goals, audiences, tags, custom fields, scenarios, branching logic, rich menus, forms, QA checks, owners, and done conditions.
+
+In short: it catches the boring mistakes that usually become painful right before a LINE campaign goes live.
+
+日本語で言うと、LINE/Lステップ案件資料の抜け漏れを診断するCLIです。小規模店舗のLINE導線は、文面より先に設計の抜け漏れで崩れます。タグ、友だち情報、フォーム、分岐、QA、完了条件が薄いまま進むと、公開直前にだいたい燃えます。LINE Plan Doctor は、その地味な事故を早めに見つけるための小さいOSSです。
 
 ## できること
 
